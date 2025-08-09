@@ -11,10 +11,10 @@
 }
 
 :root {
-    --main-color: #fe5b3d;
-    --second-color: #ffac38;
-    --text-color: #444;
-    --gradient: linear-gradient(#fe5b3d, #ffac38);
+    --main-color: #BBD3F2;
+    --second-color: #BFD962;
+    --text-color: #8C1C45;
+    --gradient: linear-gradient(#F2294E, #85B4F2);
 }
 
 html::-webkit-scrollbar {
@@ -43,7 +43,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #eeeff1;
+    background: #F2E7C4;
     padding: 15px 100px;
 }
 
@@ -96,7 +96,7 @@ header {
 
 .header-btn .sign-in {
     background: #474fa0;
-    color: #fff;
+    color: #0C2C40;
     border-radius: 0.5rem;
 }
 
@@ -168,7 +168,7 @@ header {
     padding: 7px;
     outline: none;
     border: none;
-    background: #eeeff1;
+    background: #D94343;
     border-radius: 0.5rem;
     font-size: 1rem;
 }
@@ -178,8 +178,8 @@ header {
     padding: 10px 34px;
     border: none;
     border-radius: 0.5rem;
-    background: #474fa0;
-    color: #fff;
+    background: #8C1C31;
+    color: #6394BF;
     font-size: 1rem;
     font-weight: 500;
 }
@@ -217,7 +217,7 @@ header {
 .ride-container .box .bx {
     font-size: 34px;
     padding: 10px;
-    background: #eeeff1;
+    background: #F2E7C4;
     border-radius: 0.5rem;
     color: var(--main-color);
 }
@@ -231,7 +231,7 @@ header {
 .ride-container .box .bx:hover,
 .ride-container .box .bxs-calendar-check {
     background: var(--gradient);
-    columns: #fff;
+    columns: #A63429;
 }
 
 .services-container {
@@ -289,7 +289,7 @@ header {
     display: flex;
     justify-content: center;
     background: #474fa0;
-    color: #fff;
+    color: #F2AB6D;
     padding: 10px;
     border-radius: 0.5rem;
 }
@@ -324,7 +324,7 @@ header {
 .about-text .btn {
     padding: 10px 20px;
     background: #474fa0;
-    color: #fff;
+    color: #260101;
     border-radius: 0.5rem;
 }
 
@@ -378,20 +378,20 @@ header {
 }
 
 .newsletter {
-    background: linear-gradient(to top right, #fe5b3d, #ffac38);
+    background: linear-gradient(to top right, #260101, #F2DEA0);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .newsletter h2 {
-    color: #fff;
+    color: #F27F3D;
     font-size: 1.8rem;
 }
 
 .newsletter .box {
     margin-top: 1rem;
-    background: #fff;
+    background: #8C6B64;
     border-radius: 0.5rem;
     padding: 4px 8px;
     width: 350px;
@@ -405,8 +405,8 @@ header {
 }
 
 .newsletter .box .btn {
-    background: #474fa0;
-    color: #fff;
+    background: #378C6D;
+    color: #F21B1B;
     padding: 8px 20px;
     border-radius: 0.5rem;
 }
@@ -423,7 +423,7 @@ header {
 }
 
 .social a {
-    color: #444;
+    color: #F27830;
     padding: 10px;
     font-size: 21px;
 }
